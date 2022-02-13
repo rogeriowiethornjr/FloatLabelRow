@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.source_files = ['Sources/**/*.{swift}']
   s.ios.frameworks = 'UIKit', 'Foundation'
-  s.dependency 'Eureka', '>= 5.0.1'
+  s.dependency 'Eureka', '>= 5.3.4'
 end
